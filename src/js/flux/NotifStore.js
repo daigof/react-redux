@@ -5,7 +5,7 @@ STORES:
   Respond to action type using Switch statement.
   After computation stores emit change event so views can catch the new state
   Stores may depend on each other
-  So main difference with Redux is taht Flux can have multiple Stores and state may mutable
+  So main difference with Redux is that Flux can have multiple Stores and state may mutable
 */
 
 import {EventEmitter} from "events";
